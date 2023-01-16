@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:player",
+            "nbt": "{UUID:[I;1197775583,726485726,-2043310231,-1835790800]}"
+          }
+        }
+      ]
+    }
+  ]
+}
